@@ -143,5 +143,19 @@ def num_points_scored (player_name)
 end
 
 
-def 
+def shoe_size (player_name)
+
+  home = ["Alan Anderson", "Reggie Evans", "Brook Lopez", "Mason Plumlee", "Jason Terry"]
+  away = ["Jeff Adrien", "Bismack Biyombo", "DeSagna Diop", "Ben Gordon", "Kemba Walker"]
+  for name in home do
+    if name == player_name
+      return game_hash[:home][:players][home.index(name)][:shoe]
+    end
+  end
+  for name in away do
+    if name == player_name
+      return game_hash[:away][:players][away.index(name)][:shoe]
+    end
+  end
+end
 # Write code here

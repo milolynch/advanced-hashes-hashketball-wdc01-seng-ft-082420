@@ -169,6 +169,6 @@ def team_colors (team_name)
 end
 
 def team_names
-  
+  return ["Brooklyn Nets", "Charlotte Hornets"]
 end
 # Write code here

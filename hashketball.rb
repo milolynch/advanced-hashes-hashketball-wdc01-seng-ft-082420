@@ -180,4 +180,8 @@ def player_numbers (team_name)
     return [4, 0, 2, 8, 33]
   end
 end
+
+def player_stats (player_name)
+  
+end
 # Write code here

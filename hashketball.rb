@@ -137,7 +137,7 @@ def num_points_scored (player_name)
   index = 0
   while index < 5 do
     if game_hash[:away][:players][0].has_value?(player_name) == true
-      return game_hash[:home][:players][index][:points]
+      return game_hash[:away][:players][index][:points]
     end
     index +=1
   end

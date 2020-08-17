@@ -171,4 +171,13 @@ end
 def team_names
   return ["Brooklyn Nets", "Charlotte Hornets"]
 end
+
+def player_numbers (team_name)
+  if team_name == "Brooklyn Nets"
+    return [0, 30, 11, 1, 31]
+  end
+  if team_name == "Charlotte Hornets"
+    return [4, 0, 2, 8, 33]
+  end
+end
 # Write code here

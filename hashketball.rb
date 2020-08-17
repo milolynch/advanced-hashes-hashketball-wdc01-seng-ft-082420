@@ -129,7 +129,8 @@ end
 def num_points_scored (player_name)
   
   home = ["Alan Anderson", "Reggie Evans", "Brook Lopez", "Mason Plumlee", "Jason Terry"]
-  away = ["Jeff Adrien", "Bismack Biyombo", "DeSagna Diop", "Ben Gordon", "", ""]
+  away = ["Jeff Adrien", "Bismack Biyombo", "DeSagna Diop", "Ben Gordon", "Kemba Walker"]
+  
 
 end
 

@@ -129,9 +129,11 @@ end
 def num_points_scored (player_name)
   
   if game_hash[:home][:players][0].has_value?(player_name) == true
-    return game_hash[:home][:players][0][:points]
+    return "home"
   end
-  
+    if game_hash[:away][:players][0].has_value?(player_name) == true
+    return "away"
+  end
 end
 
 # Write code here

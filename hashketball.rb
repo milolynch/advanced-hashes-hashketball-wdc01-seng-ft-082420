@@ -158,4 +158,13 @@ def shoe_size (player_name)
     end
   end
 end
+
+def team_colors (team_name)
+  if team_name == "Brooklyn Nets"
+    return ["Black","White"]
+  end
+  if team_name == "Charlotte Hornets"
+    return ["Turquoise", "Purple"]
+  end
+end
 # Write code here

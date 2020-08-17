@@ -132,15 +132,14 @@ def num_points_scored (player_name)
   away = ["Jeff Adrien", "Bismack Biyombo", "DeSagna Diop", "Ben Gordon", "Kemba Walker"]
   for name in home do
     if name == player_name
-      return 9
+      return game_hash[:home][:players][home.index(name)][:points]
     end
   end
   for name in away do
     if name == player_name
-      return 9
+      return game_hash[:away][:players][away.index(name)][:points]
     end
   end
-
 end
 
 # Write code here

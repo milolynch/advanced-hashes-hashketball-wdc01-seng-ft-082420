@@ -167,4 +167,8 @@ def team_colors (team_name)
     return ["Turquoise", "Purple"]
   end
 end
+
+def team_names
+  
+end
 # Write code here
